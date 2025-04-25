@@ -59,19 +59,19 @@ def parse_arguments():
         '--num_inference_steps',
         type=int,
         default=50,
-        help='Number of inference steps for the model.'
+        help='Number of inference steps for the model. Defaults to 50.'
     )
     parser.add_argument(
         '--image_guidance_scale',
         type=float,
         default=1.5,
-        help='Image guidance scale for the model.'
+        help='Image guidance scale for the model. Defaults to 1.5'
     )
     parser.add_argument(
         '--text_guidance_scale',
         type=float,
         default=7.5,
-        help='Text guidance scale for the model.'
+        help='Text guidance scale for the model. Defaults to 7.5'
     )
     return parser.parse_args()
 

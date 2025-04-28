@@ -32,7 +32,7 @@ If you found our code helpful, please cite our paper!
 ```
 @article{sushko2024realedit,
   title     = {REALEDIT: Reddit Edits As a Large-scale Empirical Dataset for Image Transformations},
-  author    = {Sushko, Petr and Bharadwaj, Ayana and Lim, Zhi Yang and Ilin, Vasily and Caffee, Ben and Chen, Dongping and Salehi, Mohammadreza and Hsieh, Cheng-Yu and Krishna, Ranjay},
+  author    = {Sushko, Peter and Bharadwaj, Ayana and Lim, Zhi Yang and Ilin, Vasily and Caffee, Ben and Chen, Dongping and Salehi, Mohammadreza and Hsieh, Cheng-Yu and Krishna, Ranjay},
   journal   = {arXiv preprint},
   year      = {2024},
 }

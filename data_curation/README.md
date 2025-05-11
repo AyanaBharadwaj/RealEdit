@@ -1,6 +1,6 @@
 # Data Curation Pipeline
 
-This README contains the instructions and commands to download reddit metadata, parse and download images from it, and creating the formatted dataset file to be used as input for fine-tuning InstructPix2Pix. The provided code was used to curate the dataset (here. TODO: add link) which is an extension of RealEdit containing reddit data from July 2021 to December 2024. While opennsfw2 (TODO: link) with a threshold of 0.5 was used to remove NSFW images from the dataset, this code isn't provided. Note also that this dataset was **not** filtered via clip or ssim image similarity scores. 
+This README contains the instructions and commands to download reddit metadata, parse and download images from it, and creating the formatted dataset file to be used as input for fine-tuning InstructPix2Pix. The provided code was used to curate the dataset [here](https://huggingface.co/datasets/ben-caffee/RealEdit-Jul2021-Dec2024) which is an extension of RealEdit containing reddit data from July 2021 to December 2024. While [opennsfw2](https://github.com/bhky/opennsfw2) with a threshold of 0.5 was used to remove NSFW images from the dataset, this code isn't provided. Note also that this dataset was **not** filtered via clip or ssim image similarity scores. 
 
 ## Table of Contents
 - [Installation](#installation)
